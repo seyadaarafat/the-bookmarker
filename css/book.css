@@ -1,0 +1,93 @@
+body{
+    background-image: url(pastel-background-with-aesthetic-pink-sky.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+-webkit-animation: slidein 15s;
+        animation: slidein 15s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+} 
+
+ @keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+ 
+} 
+.table{
+        color: #A99EAF;
+}
+h2{
+
+    font-family: "Righteous", cursive;
+    font-size: 35px;
+    background-image: linear-gradient(to left, rgb(36, 40, 35), rgb(145, 116, 122));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+form{
+    color:rgb(145, 116, 122) ;
+    font-size: 25px;
+}
+.btn{
+    background-color: rgb(145, 116, 122);
+    
+}
+
+.box-info {
+    background-color: #0007;
+  }
+  
+  .box-conent {
+    width: 500px;
+    z-index: 10;
+  }
+  
+  .box-conent p {
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+    line-height: 1.3;
+    color: #352e28;
+  }
+  .circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .circles span:nth-child(1) {
+    background-color: #f15f5d;
+  }
+  .circles span:nth-child(2) {
+    background-color: #febe2e;
+  }
+  .circles span:nth-child(3) {
+    background-color: #4db748;
+  }
+  button{
+    
+    background: linear-gradient(
+        45deg,
+        #f9d9e7,
+        #91747a
+    );
+    --bs-btn-border-color: #f9d9e7,
+    
+  }
+  
