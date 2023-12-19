@@ -63,7 +63,7 @@ function display(books) {
     for (var i = 0; i < books.length; i++) {
         cartoona += `
             <tr>
-                <td>${i}</td>
+                <td>${i+1}</td>
                 <td>${books[i].Name}</td>
                 <td><button class="btn btn-delete pe-2" data-index="${i}" onclick="visitWebsite('${books[i].Url}')">Visit
                     <i class="fa-solid fa-eye pe-1"></i>
